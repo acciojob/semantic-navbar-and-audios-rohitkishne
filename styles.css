@@ -1,16 +1,24 @@
 /* Your CSS Code here. */
 *{
-    margin: 0;
+    margin:0;
     padding: 0;
 }
-.navbar{
-    background-color: black;
-    height: 30px;
-    padding-top: 10px;
-    padding-left: 20px;
+nav{
+	height:50px;
+	background-color:black;
+    position: relative;
 }
-.navbar a {
-    margin-left: 20px;
+div{
+    position: absolute;
+    top: 15px;
+    left: 10px;
+}
+div li{
+	display: inline-block;
+	margin : 0px 10px;
+}
+
+div li a{
     text-decoration: none;
     color: white;
 }
